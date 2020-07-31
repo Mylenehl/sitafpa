@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap");
+  }
+  
+
+
+
+.navbar img{
+    width:17%
+}
+.navbar-brand{
+    font-size: 0.8em;
+    padding: 2%;
+}
+/* .carousel-inner img{
+    max-height: 152px;
+} */
+/* .titre{
+    margin:2% 10%;
+} */
+.verte{
+    background-color: rgb(56, 133, 32, 0.4);
+}
+
+@media screen and (max-width: 370px){
+    .navbar img{
+        display:none;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .slider img{
+        width:100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .navbar-brand{
+        font-size: 1.1em;
+    }
+    /* .slider{
+        display:flex;
+        justify-content: center;
+    }
+    .slide{
+        width:65%;
+    }
+    .carousel-inner img {
+        max-height: 219px;
+    } */
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .navbar-brand{
+        font-size: 1.2em;
+    }
+    /* .slider{
+        display:flex;
+        justify-content: center;
+    }
+    .slide{
+        width:70%;
+    }
+    .carousel-inner img {
+        max-height: 340px;
+    }
+} */
